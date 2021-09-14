@@ -10,7 +10,7 @@ spec:
   destination:
     namespace: dev
     server: https://kubernetes.default.svc
-  project: services
+  project: applications
   source:
     path: mq/environments/dev/mq-infra
     repoURL: https://github.com/gitops-workflow-demo/multi-tenancy-gitops-apps
