@@ -13,8 +13,8 @@ spec:
   project: applications
   source:
     path: mq/environments/prod/mq-spring-app
-    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
-    targetRevision: master
+    repoURL: https://github.com/gitops-workflow-demo/multi-tenancy-gitops-apps
+    targetRevision: ocp47-2021-2
     helm:
       valueFiles:
       - values.yaml
